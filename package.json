@@ -1,0 +1,24 @@
+{
+  "name": "@kamila-lab/story-loader",
+  "version": "0.0.1",
+  "description": "Loader for Kamila stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel src -d dist --copy-files"
+  },
+  "keywords": [
+    "Kamila",
+    "story",
+    "loader",
+    "web",
+    "react",
+    "app"
+  ],
+  "author": "ycgarrido@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "lodash": "^4.17.15"
+  }
+}
